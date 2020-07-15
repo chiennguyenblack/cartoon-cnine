@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hoạt Hình C.Nine</title>
+    <!-- Import Bootstrap css, js, font awesome here -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="./assets/css/stylefilm.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="myHeader" class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class=" container container-fluid">
+
+            <h4>Hoạt Hình C.Nine</h4>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <input type="text" class="find-film" placeholder="Nhập tên phim...">
+                        <button class="btn-find-film">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container d-flex justify-content-around">
+        <div class="dropdown">
+            <button class="drop-btn btn btn-outline-secondary">THỂ LOẠI</button>
+            <div class="dropdown-content">
+                <div class="row">
+                    <div class="col-sm">
+                        <a href="#">Full HD</a>
+                        <a href="#">Censor</a>
+                        <a href="#">Uncensor</a>
+                    </div>
+                    <div class="col-sm">
+                        <a href="#">Romantic</a>
+                        <a href="#">Dark</a>
+                        <a href="#">Anime</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn drop-btn btn-outline-secondary">QUỐC GIA</button>
+        <button type="button" class="btn drop-btn btn-outline-secondary">PHIM LẺ</button>
+        <button type="button" class="btn drop-btn btn-outline-secondary">PHIM BỘ</button>
+        <button type="button" class="btn drop-btn btn-outline-secondary">PHIM CHIẾU RẠP</button>
+        <button type="button" class="btn drop-btn btn-outline-secondary">TRAILERTOP</button>
+        <button type="button" class="btn drop-btn btn-outline-secondary">TOP IMDB 2019</button>
+    </div>
+    <div class="container">
+        <hr color="#fff" class="my-4">
+        <div class="d-flex justify-content-between">
+            <h5 class="mini-title">PHIM CHIẾU RẠP MỚI</h5>
+            <hr class="my-4">
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <div class="row">
+                    <div class="col">
+                        <div class="card mb-2">
+                            <img class="card-img-top"
+                                src="https://1.bp.blogspot.com/-aRQt3D11Jss/XnyjiR-h5JI/AAAAAAAAA5Y/peogZSK7jAkyjbPyuXIEXMBUsLMR36WkACLcBGAsYHQ/s1600/Vu%2BCanh%2BKy%2BPhan%2B3.jpg"
+                                alt="Card image cap">
+                            <div class="card-body card-body-btn">
+                                <button type="button" class="btn btn-film-cus btn-success">Xem Phim</button>
+                                <button type="button" class="btn btn-film-cus btn-danger">Download</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cus-index-film">
+                            <div class="card-header">
+                                <h5 class="card-title">Vũ Canh Kỷ</h5>
+                            </div>
+                            <div class="card-body card-body-cus">
+
+                                <p class="card-text">Trạng thái: Chưa hoàn thành</p>
+                                <p class="card-text">Quốc gia: Trung Quốc</p>
+                                <p class="card-text">Năm: 2017</p>
+                                <p class="card-text">Thời lượng: Undefined</p>
+                                <p class="card-text">Chất lượng: Bản đẹp</p>
+                                <p class="card-text">Độ phân giải: HD 720p</p>
+                                <p class="card-text">Ngôn ngữ: Phụ đề Việt</p>
+                            </div>
+                            <div class="card-footer text-muted d-flex justify-content-between">
+                                <div class="rating-star d-flex align-items-center">
+                                    <div class="">Rating:</div>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="">Like:</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                DAY LA PHAN ADS
+                </br>
+                Địt mẹ mày thứ chương lồn
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
