@@ -113,6 +113,9 @@ body {
   border: 1px solid #6c757d;
   border-radius: 5px;
   width: 440px;
+  transform-origin: 10% top;
+  animation: ani-Growth-up ease-in 0.2s;
+  will-change: transform, opacity;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -144,8 +147,18 @@ body {
   text-decoration: none;
   display: block;
   width: 95%;
+  
 }
-
+@keyframes ani-Growth-up {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #585353;
@@ -171,8 +184,8 @@ body {
 
 .link-icon{
 	padding: 0!important;
-	width: 200px;
-	height: 200px;
+	width: 60px;
+	height: 60px;
 	display: flex;
 }
 
@@ -184,7 +197,6 @@ body {
 	text-decoration: none;
 	background-color: rgba(255, 255, 255, 0.9) !important;
 	border-radius: 50%;
-	border: 30px solid rgb(8, 7, 7);;
 }
 
 .link-icon:hover i{
@@ -195,6 +207,9 @@ body {
 .social a {
 	font-size: 3em;/*1em = 16px*/
 	padding: 2rem;/*1rem = 1 "font-size" */
+}
+.fab{
+  font-size: 30px;
 }
 .fa-facebook {
 	color: #3b5998;
