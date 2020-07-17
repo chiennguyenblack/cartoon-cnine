@@ -17,6 +17,10 @@ body {
   font-weight: 700;
   text-shadow: 5px 5px 15px #fff;
 }
+.navbar-toggler {
+  color: #fff;
+  border-color: #fff;
+}
 .carousel {
   margin-top: 10px;
 }
@@ -47,12 +51,6 @@ body {
   color: #fff;
   border: none;
 }
-.btn-cus{
-  border: none;
-  color: #fff;
-
-}
-
 .card-img-top {
   position: relative;
 }
@@ -81,15 +79,19 @@ body {
 .mini-fab{
   margin: 5px;
 }
-
-
 .dropdown-toggle:hover .dropdown-menu{
-
   display: block;
 }
-
+/* Hidden on Mobile */
+@media screen and (max-width: 800px) {
+  .container-hot-film {
+    display: none;
+  }
+  .container-trailer {
+    display: none;
+  }
+}
 /* Dropdown Menu */
-
 /* Dropdown Button */
 .drop-btn {
   color: #6c757d;

@@ -19,13 +19,13 @@
 
 <body>
     <!-- Navigation -->
-    <nav id="myHeader" class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <nav id="myHeader" class="navbar navbar-expand-md bg-light sticky-top">
         <div class=" container container-fluid">
 
             <h4>Hoạt Hình C.Nine</h4>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
@@ -39,33 +39,46 @@
             </div>
         </div>
     </nav>
-    <div class="container d-flex justify-content-around">
-        <div class="dropdown">
-            <button class="drop-btn btn btn-outline-secondary">THỂ LOẠI</button>
-            <div class="dropdown-content">
-                <div class="row">
-                    <div class="col-6">
-                        <a href="#">Full HD</a>
-                        <a href="#">Censor</a>
-                        <a href="#">Uncensor</a>
-                    </div>
-                    <div class="col-6">
-                        <a href="#">Romantic</a>
-                        <a href="#">Dark</a>
-                        <a href="#">Anime</a>
+    <div class="container">
+        <div class="row d-flex">
+            <div class="dropdown col">
+                <button class="drop-btn btn btn-outline-secondary">THỂ LOẠI</button>
+                <div class="dropdown-content">
+                    <div class="row">
+                        <div class="col-6">
+                            <a href="#">Full HD</a>
+                            <a href="#">Censor</a>
+                            <a href="#">Uncensor</a>
+                        </div>
+                        <div class="col-6">
+                            <a href="#">Romantic</a>
+                            <a href="#">Dark</a>
+                            <a href="#">Anime</a>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="col">
+                <button type="button" class="btn drop-btn btn-outline-secondary">QUỐC GIA</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn drop-btn btn-outline-secondary">PHIM LẺ</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn drop-btn btn-outline-secondary">PHIM BỘ</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn drop-btn btn-outline-secondary">PHIM CHIẾU RẠP</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn drop-btn btn-outline-secondary">TRAILERTOP</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn drop-btn btn-outline-secondary">TOP IMDB 2019</button>
+            </div>
         </div>
-        <button type="button" class="btn drop-btn btn-outline-secondary">QUỐC GIA</button>
-        <button type="button" class="btn drop-btn btn-outline-secondary">PHIM LẺ</button>
-        <button type="button" class="btn drop-btn btn-outline-secondary">PHIM BỘ</button>
-        <button type="button" class="btn drop-btn btn-outline-secondary">PHIM CHIẾU RẠP</button>
-        <button type="button" class="btn drop-btn btn-outline-secondary">TRAILERTOP</button>
-        <button type="button" class="btn drop-btn btn-outline-secondary">TOP IMDB 2019</button>
     </div>
-
-    <div class="container">
+    <div class="container container-hot-film">
         <hr color="#fff" class="my-4">
         <h5 class="mini-title">PHIM ĐỀ CỬ</h5>
         <!-- Carousel -->
@@ -200,7 +213,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container container-trailer">
         <hr color="#fff" class="my-4">
         <div class="col-12 col-12-cus">
             <img class="card-img card-img-cus" src="https://image.hayghe.org/data/info/Martial-Universe-2.jpg" alt="">
@@ -217,7 +230,6 @@
             </div>
         </div>
     </div>
-    </div>
     <div class="container">
         <hr color="#fff" class="my-4">
         <div class="d-flex justify-content-between">
@@ -228,26 +240,29 @@
             <div class="col-6">
                 <div class="row">
                     <div class="col">
-                        <div class="card mb-2">
-                            <img class="card-img-top"
-                                src="https://1.bp.blogspot.com/-aRQt3D11Jss/XnyjiR-h5JI/AAAAAAAAA5Y/peogZSK7jAkyjbPyuXIEXMBUsLMR36WkACLcBGAsYHQ/s1600/Vu%2BCanh%2BKy%2BPhan%2B3.jpg"
-                                alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Vũ Động Càn Khôn</h5>
-                                <div class="row row-cus justify-content-between">
-                                    <div class="d-flex justify-content-between">
-                                        <i class="fas mini-fab fa-eye"></i>
-                                        <p class="mini-text">100000</p>
+                        <a href="indexfilm.html" class="post-image-link">
+                            <div class="card mb-2">
+                                <img class="card-img-top"
+                                    src="https://1.bp.blogspot.com/-aRQt3D11Jss/XnyjiR-h5JI/AAAAAAAAA5Y/peogZSK7jAkyjbPyuXIEXMBUsLMR36WkACLcBGAsYHQ/s1600/Vu%2BCanh%2BKy%2BPhan%2B3.jpg"
+                                    alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Vũ Động Càn Khôn</h5>
+                                    <div class="row row-cus justify-content-between">
+                                        <div class="d-flex justify-content-between">
+                                            <i class="fas mini-fab fa-eye"></i>
+                                            <p class="mini-text">100000</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <i class="fab mini-fab fa-gratipay"></i>
+                                            <p class="mini-text">100000</p>
+                                        </div>
+    
                                     </div>
-                                    <div class="d-flex justify-content-between">
-                                        <i class="fab mini-fab fa-gratipay"></i>
-                                        <p class="mini-text">100000</p>
-                                    </div>
-                                    
+    
                                 </div>
-        
                             </div>
-                        </div>
+                        </a>
+                        
                     </div>
                     <div class="col">
                         <div class="card mb-2">
@@ -265,9 +280,9 @@
                                         <i class="fab mini-fab fa-gratipay"></i>
                                         <p class="mini-text">100000</p>
                                     </div>
-                                    
+
                                 </div>
-        
+
                             </div>
                         </div>
                     </div>
@@ -291,9 +306,9 @@
                                         <i class="fab mini-fab fa-gratipay"></i>
                                         <p class="mini-text">100000</p>
                                     </div>
-                                    
+
                                 </div>
-        
+
                             </div>
                         </div>
                     </div>
@@ -313,9 +328,9 @@
                                         <i class="fab mini-fab fa-gratipay"></i>
                                         <p class="mini-text">100000</p>
                                     </div>
-                                    
+
                                 </div>
-        
+
                             </div>
                         </div>
                     </div>
@@ -342,9 +357,9 @@
                                         <i class="fab mini-fab fa-gratipay"></i>
                                         <p class="mini-text">100000</p>
                                     </div>
-                                    
+
                                 </div>
-        
+
                             </div>
                         </div>
                     </div>
@@ -364,9 +379,9 @@
                                         <i class="fab mini-fab fa-gratipay"></i>
                                         <p class="mini-text">100000</p>
                                     </div>
-                                    
+
                                 </div>
-        
+
                             </div>
                         </div>
                     </div>
@@ -390,9 +405,9 @@
                                         <i class="fab mini-fab fa-gratipay"></i>
                                         <p class="mini-text">100000</p>
                                     </div>
-                                    
+
                                 </div>
-        
+
                             </div>
                         </div>
                     </div>
@@ -412,9 +427,9 @@
                                         <i class="fab mini-fab fa-gratipay"></i>
                                         <p class="mini-text">100000</p>
                                     </div>
-                                    
+
                                 </div>
-        
+
                             </div>
                         </div>
                     </div>
@@ -447,9 +462,9 @@
                                         <i class="fab mini-fab fa-gratipay"></i>
                                         <p class="mini-text">100000</p>
                                     </div>
-                                    
+
                                 </div>
-        
+
                             </div>
                         </div>
                     </div>
@@ -469,9 +484,9 @@
                                         <i class="fab mini-fab fa-gratipay"></i>
                                         <p class="mini-text">100000</p>
                                     </div>
-                                    
+
                                 </div>
-        
+
                             </div>
                         </div>
                     </div>
@@ -495,9 +510,9 @@
                                         <i class="fab mini-fab fa-gratipay"></i>
                                         <p class="mini-text">100000</p>
                                     </div>
-                                    
+
                                 </div>
-        
+
                             </div>
                         </div>
                     </div>
@@ -517,9 +532,9 @@
                                         <i class="fab mini-fab fa-gratipay"></i>
                                         <p class="mini-text">100000</p>
                                     </div>
-                                    
+
                                 </div>
-        
+
                             </div>
                         </div>
                     </div>
@@ -546,9 +561,9 @@
                                         <i class="fab mini-fab fa-gratipay"></i>
                                         <p class="mini-text">100000</p>
                                     </div>
-                                    
+
                                 </div>
-        
+
                             </div>
                         </div>
                     </div>
@@ -568,9 +583,9 @@
                                         <i class="fab mini-fab fa-gratipay"></i>
                                         <p class="mini-text">100000</p>
                                     </div>
-                                    
+
                                 </div>
-        
+
                             </div>
                         </div>
                     </div>
@@ -594,9 +609,9 @@
                                         <i class="fab mini-fab fa-gratipay"></i>
                                         <p class="mini-text">100000</p>
                                     </div>
-                                    
+
                                 </div>
-        
+
                             </div>
                         </div>
                     </div>
@@ -616,9 +631,9 @@
                                         <i class="fab mini-fab fa-gratipay"></i>
                                         <p class="mini-text">100000</p>
                                     </div>
-                                    
+
                                 </div>
-        
+
                             </div>
                         </div>
                     </div>
@@ -680,5 +695,4 @@
         </footer>
     </div>
 </body>
-
 </html>
