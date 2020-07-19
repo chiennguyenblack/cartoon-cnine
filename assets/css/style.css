@@ -68,6 +68,7 @@ body {
   text-shadow: 5px 5px 15px #fff;
   margin: auto;
   text-align: center;
+  font-size: 2vw;
 }
 .mini-text{
   font-size: 8px;
@@ -89,6 +90,11 @@ body {
   }
   .container-trailer {
     display: none;
+  }
+}
+@media screen and (max-width: 780px) {
+  .card-title{
+    font-size: 4vw;
   }
 }
 /* Dropdown Menu */
@@ -207,8 +213,8 @@ body {
 	transition: .5s;
 }
 .social a {
-	font-size: 3em;/*1em = 16px*/
-	padding: 2rem;/*1rem = 1 "font-size" */
+	font-size: 3em;
+	padding: 2rem;
 }
 .fab{
   font-size: 30px;
